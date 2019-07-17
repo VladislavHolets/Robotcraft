@@ -29,7 +29,7 @@
 #include <stdint.h>
 
 void first(const uint8_t ledPin, uint8_t dutyCycleInPercents = 75); //task #1
-void second(); //TODO: task#2
+void second(); //task#2
 void third(uint8_t leds[8]); //task#3
 uint8_t leds[8] = { 2, 3, 4, 5, 6, 7, 8, 9 };
 void fourth(uint8_t leds[8]);
